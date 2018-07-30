@@ -2,6 +2,30 @@
 <html>
 <head>
 	<title>Tables of different type</title>
+	<style type="text/css">
+		table {
+			border: 2px solid;
+			border-collapse: collapse;
+			/*if we remove border collapse, then we observe box around every th,td*/
+			padding: 2px;
+			/*Use % instead of px to make website responsive*/
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		th,td {
+			border: 2px solid;
+			border: 2px solid;
+			padding: 5px;
+			text-align: center;
+		}
+		th	{
+			background-color: lightgray;
+		}
+		h1 {
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
 	<h1>Presidents</h1>
@@ -19,7 +43,7 @@
 		</tr>
 		<tr>
 			<td>John</td>
-			<td>F.kennedy</td>
+			<td>Adam</td>
 			<td>1797-1801</td>
 		</tr>
 	</table>
